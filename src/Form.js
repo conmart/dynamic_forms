@@ -64,6 +64,7 @@ class Form extends Component {
               </div>
             );
           }
+          return '';
         })}
         <button onClick={this.handleSubmit} type="submit">
           Submit
